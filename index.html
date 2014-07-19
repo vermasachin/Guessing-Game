@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<title>Guessing Game</title>
+	<header>
+		<h1>Guessing Game - Game of pure luck</h1>
+	</header>
+	<div class="top">
+		<div id="bestscorevalue"></div><button class="button2" id="reset" onclick="localStorage.removeItem('bestscore');window.location.reload();">Reset Best Score</button>
+		<h2>How does this game work?</h2>
+		<p>
+			<li>Computer will choose a number between 1-100 randomly and memorize it.</li>
+			<li>You have to guess the number which computer has chosen.</li>
+			<li>The game continues until you guess the right number.</li>
+			<li>Refresh to start a new game.</li>
+		</div>
+		<div id ="input"><input type="text" id="guess" onkeydown="if (event.keyCode == 13) document.getElementById('guessButton').click()" placeholder="Enter your number here"></input>
+			<button onclick="buttonClick()" id="guessButton">Click to guess</button>
+		</div>
+		<div id="message"></div>
+		<div id="message2"></div>
+		<div id="messages"></div>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</body>
+	</html>

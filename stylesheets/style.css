@@ -1,0 +1,78 @@
+body {
+	background-color: #27AE60;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+}
+
+button {
+	background-color: #333;
+	border: none;
+	border-bottom: 3px solid #222;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Lato',sans-serif;
+	font-size: 20px;
+	line-height: 1;
+	margin: 20px 5px;
+	outline: none;
+	padding: 10px 20px;
+}
+
+button:active {
+	border-bottom: none;
+	border-top: 3px solid #222;
+}
+
+.button2 {
+	font-size: 14px;
+	padding: 5px 10px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+input[type="text"] {
+	color: #CCC;
+	font-size: 20px;
+	line-height: 1.4;
+	margin: 20px 5px;
+	outline: none;
+	padding: 8px 20px;
+}
+
+input[type="text"]:focus {
+	color: #333;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+li {
+	text-align: left;
+}
+
+#message {
+	font-size: 24px;
+}
+
+.header,
+.top {
+	padding: 1% 0;
+}
+
+.middle {
+	padding: 5% 0;
+}
+
+::selection {
+	background-color: #333;
+	color: #333;
+}
